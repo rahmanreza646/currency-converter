@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	
+	<title></title>
+	<link rel="stylesheet" type= "text/css" href="style.css">
+	<head>
+		<body>
+			<header>
+				<div class="head">
+			<h1> Currency Converter</h1>
+         </div>
+           
+                                     
+    
+        <div class="box1">
+            <select name="currency" id="inputCurrency" onchange="firstToSecond()" onclick="firstToSecond()" oninput="firstToSecond()">	
+
+            <option value="BDT1">Bangladeshi Taka </option>
+            <option value="INR1">Indian Rupee </option>
+            <option value="USD1">United States Dollar </option>
+            <option value="SAR1"> Saudi Arabian Riyal </option>
+            <option value="KRW1">South Korean Won</option>
+            <option value="MYR1">Malaysian Ringgit</option>
+            <option value="SGD1">Singapore Dollar</option>
+            <option value="CAD1">Canadial Dollar</option>
+            <option value="EUR1">Euro</option>
+            <option value="CNY1">Chinese Yuan</option>
+
+
+
+           </select>
+
+            <div class="inputbox1">
+                <input oninput="firstToSecond()" onchange="firstToSecond()" type="number" id="firstCurrency"/>
+            </div>
+
+       </div>
+       
+          
+
+
+         <div class="box2">
+            <select name="currency" id="outputCurrency" onchange="firstToSecond()" onclick="firstToSecond()" oninput="firstToSecond()">
+
+            <option value="BDT2"> Bangladeshi Taka</option>
+            <option value="INR2">Indian Rupee </option>
+            <option value="USD2"> United States Dollar </option>
+            <option value="SAR2">Saudi Arabian Riyal</option>
+             <option value="KRW2">South Korean Won</option>
+            <option value="MYR2">Malaysian Ringgit</option>
+            <option value="SGD2">Singapore Dollar</option>
+            <option value="CAD2">Canadial Dollar</option>
+            <option value="EUR2">Euro</option>
+             <option value="CNY2">Chinese Yuan</option>
+
+
+           </select>
+
+            <div class="inputbox2">
+           <input id="SecondCurrency" />
+       </div>
+          </div>
+         
+
+           <script src="script.js">
+
+
+
+           </script>
+       </header>
+		</body>
+	</head>
+</html>
